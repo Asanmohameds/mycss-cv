@@ -1,0 +1,170 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+
+}
+
+/* 16px(this is not dynamic)=100%(dynamic)=1em(dynamic)=1rem */
+/* font size will increase if we mentioned in body class. so we have to ensure it.
+to avoid this issuew we are using "rem" unit - route em*/
+
+h1 {
+
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 3.625rem;
+  margin: 50px auto 0 auto;
+}
+
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+p {
+  line-height: 2;
+}
+
+h3 {
+
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+
+}
+
+a {
+
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.footer-link {
+
+  color: #11999E;
+
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+
+}
+
+.middle-container {
+
+  margin: 100px 0;
+
+}
+
+.bottom-container {
+
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+
+}
+
+.top-cloud {
+
+  position: absolute;
+  top: 60px;
+  right:300px;
+}
+
+.bottom-cloud {
+
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+}
+
+/* float property makes image in left and text / paragraph in besides. */
+
+.code-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+/* this margin right 30px makes space between the text and image.
+we can do another method also by putting h1 and p tags into singlr div and then
+applying the margin to them we can obtain it. but in this case this is easy. */
+
+.chillies-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+/* Other property called "clear" which clear the float property.
+if we want to bring the p tag content alone below the image then use this tag with class. */
+.my-image {
+  width: 25%;
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright-message {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+	background-color:#11999e;
+	border-radius:10px;
+	border:1px solid #11999e;
+	display:inline-block;
+	cursor:pointer;
+	color:#11cdd4;
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #283966;
+}
+.myButton:hover {
+	background-color:#30e3cb;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
